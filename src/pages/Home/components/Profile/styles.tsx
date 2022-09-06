@@ -10,6 +10,8 @@ export const ProfileContainer = styled.section`
   padding: 3.2rem 4rem;
   display: flex;
   gap: 2rem;
+  align-items: center;
+  justify-content: center;
 `
 
 export const ProfilePicture = styled.img`
@@ -51,4 +53,10 @@ export const ProfileDetails = styled.div`
       }
     }
   }
+`
+
+export const Loading = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `

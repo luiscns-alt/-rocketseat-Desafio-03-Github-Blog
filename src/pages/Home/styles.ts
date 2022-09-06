@@ -7,3 +7,9 @@ export const PostsListContainer = styled.section`
   gap: 3.2rem;
   margin-bottom: 23.4rem;
 `
+
+export const Loading = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
