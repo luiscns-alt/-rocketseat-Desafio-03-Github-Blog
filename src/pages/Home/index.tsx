@@ -1,7 +1,11 @@
+import { Profile } from './components/Profile'
+import { SearchInput } from './components/SearchInput'
+
 export function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Profile />
+      <SearchInput />
+    </>
   )
 }
