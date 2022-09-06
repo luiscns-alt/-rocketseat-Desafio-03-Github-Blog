@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const LayoutContainer = styled.div`
   > main {
@@ -9,4 +9,4 @@ export const LayoutContainer = styled.div`
       padding: 0 1.6rem;
     }
   }
-`;
+`
