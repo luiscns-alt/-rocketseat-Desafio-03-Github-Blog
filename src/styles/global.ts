@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
 
     ::-webkit-scrollbar {
-      width: 7.2rem;
+      width: 1rem;
     }
     ::-webkit-scrollbar-track {
       background: ${({ theme }) => theme.colors['--border']}

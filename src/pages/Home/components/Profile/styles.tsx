@@ -4,7 +4,7 @@ export const ProfileContainer = styled.section`
   width: 100%;
   min-height: 21.2rem;
   margin-top: -8.8rem;
-  background: ${({theme}) => theme.colors['--profile']};
+  background: ${({ theme }) => theme.colors['--profile']};
   box-shadow: 0 2px 28px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 3.2rem 4rem;
