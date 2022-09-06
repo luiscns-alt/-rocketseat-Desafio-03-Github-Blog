@@ -8,7 +8,6 @@ export const GlobalStyle = createGlobalStyle`
     outline: none;
     border: none;
     text-decoration: none;
-    line-height: calc(0.25rem + 1em + 0.25rem);
 
     ::-webkit-scrollbar {
       width: 7.2rem;
