@@ -1,6 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
+import firaCode from '../assets/fonts/Fira_Code_v6.2/FiraCode-Regular.woff'
 
 export const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'FiraCode';
+    src: url(${firaCode}) format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
   * {
     margin: 0;
     padding: 0;
