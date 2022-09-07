@@ -5,8 +5,10 @@ import { IPost } from '../Home'
 import { PostContent } from './PostContent'
 import { PostHeader } from './PostHeader'
 
-const username = import.meta.env.VITE_GITHUB_USERNAME
-const repoName = import.meta.env.VITE_GITHUB_REPONAME
+// const username = import.meta.env.VITE_GITHUB_USERNAME
+// const repoName = import.meta.env.VITE_GITHUB_REPONAME
+const username = 'luiscns-alt'
+const repoName = 'rocketseat-Desafio-03-Github-Blog'
 
 export function Post() {
   const [postData, setPostData] = useState<IPost>({} as IPost)

@@ -12,7 +12,8 @@ import {
   ProfilePicture,
 } from './styles'
 
-const username = import.meta.env.VITE_GITHUB_USERNAME
+// const username = import.meta.env.VITE_GITHUB_USERNAME
+const username = 'luiscns-alt'
 
 interface IProfileData {
   login: string

@@ -6,8 +6,10 @@ import { Profile } from './components/Profile'
 import { SearchInput } from './components/SearchInput'
 import { Loading, PostsListContainer } from './styles'
 
-const username = import.meta.env.VITE_GITHUB_USERNAME
-const repoName = import.meta.env.VITE_GITHUB_REPONAME
+// const username = import.meta.env.VITE_GITHUB_USERNAME
+// const repoName = import.meta.env.VITE_GITHUB_REPONAME
+const username = 'luiscns-alt'
+const repoName = 'rocketseat-Desafio-03-Github-Blog'
 
 export interface IPost {
   title: string
